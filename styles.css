@@ -6,73 +6,67 @@
   box-sizing: border-box;
 }
 
+/* Navigation */
+nav {
+  background-color: #3C3A39;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0 20px;;
+}
 
+.upper-nav, .lower-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
 
+.upper-right-nav img, .lower-nav img {
+  width: 17px;
+  margin-right: 5px;
+}
 
-  /* Navigation */
+.upper-nav h5 {
+  font-size: 14px;
+}
 
-  nav {
-    background-color: #3C3A39;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding: 0 20px;
-  }
+.lower-nav h3 {
+  font-size: 18px;
+}
 
-  .upper-nav, .lower-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0;
-  }
+/* Hero */
+.hero {
+  background-color: #1C1A19;
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: bottom right;
+  padding: 0 20px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
 
-  .upper-right-nav img, .lower-nav img {
-    width: 17px;
-    margin-right: 5px;
-  }
+.hero h1 {
+  color: #FF6B00;
+  font-size: 56px;
+  font-family: Crete Round;
+  font-family: 400;
+  margin-top: -100px;
+}
 
-  .upper-nav h5 {
-    font-size: 14px;
-  }
+.hero h2 {
+  font-family: roboto;
+  font-size: 24px;
+  color: #FFF5E1;
+  margin: 10px 0;
+}
 
-  .lower-nav h3 {
-    font-size: 18px;
-  }
-
-  /* Hero */
-
-  .hero {
-    background-color: #1C1A19;
-    background-image: url(./images/Group.png);
-    background-repeat: no-repeat;
-    background-size: 250px;
-    background-position: bottom right;
-    padding: 0 20px;
-    padding-right: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 90vh;
-  }
-
-  .hero h1 {
-    color: #FF6B00;
-    font-size: 56px;
-    font-family: Crete Round;
-    font-family: 400;
-    margin-top: -100px;
-  }
-
-  .hero h2 {
-    font-family: roboto;
-    font-size: 24px;
-    color: #FFF5E1;
-    margin: 10px 0;
-  }
-
-  .hero p {
-    font-family: poppins;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-
-  }
+.hero p {
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-family: poppins;
+}
