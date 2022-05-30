@@ -134,13 +134,15 @@ nav {
 }
 
 .skills ul {
-  display: flex;
+  /* display: flex; */
   margin-bottom: 20px;
 }
 
 .skills ul li {
   text-decoration: none;
   list-style: none;
+  float: left;
+  margin-bottom: 10px;
 }
 
 .skills-new span {
