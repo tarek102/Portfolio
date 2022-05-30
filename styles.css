@@ -141,7 +141,6 @@ nav {
   text-decoration: none;
   list-style: none;
   float: left;
-  margin-bottom: 10px;
 }
 
 .skills-new span {
@@ -203,13 +202,11 @@ nav {
   margin-top: 25px;
 }
 
-.skills-new ul {
-  display: flex;
-}
-
 .skills-new ul li {
   text-decoration: none;
   list-style: none;
+  float: left;
+  margin: 5px;
 }
 
 .see-project-new {
