@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -366,8 +367,8 @@ nav {
   width: 100%;
   padding: 12px;
   border: none;
-  background-color: #FBF8F7;
-  color: #3C3A39;
+  background-color: #fbf8f7;
+  color: #3c3a39;
   font-family: Inter, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -390,7 +391,7 @@ nav {
   list-style: none;
   gap: 10px;
   margin-top: 10px;
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
   width: 100%;
   justify-content: center;
 }
