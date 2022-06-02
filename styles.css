@@ -15,6 +15,10 @@ nav {
   padding: 0 20px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .upper-nav,
 .lower-nav {
   display: flex;
@@ -60,7 +64,7 @@ nav {
 }
 
 .hero h2 {
-  font-family: roboto, sans-serif;
+  font-family: inter, sans-serif;
   font-size: 24px;
   color: #fff5e1;
   margin: 10px 0;
@@ -70,7 +74,9 @@ nav {
   font-weight: 400;
   color: #fff;
   margin-bottom: 10px;
-  font-family: poppins, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: inter, sans-serif;
 }
 
 /* My Work section */
@@ -394,4 +400,75 @@ nav {
   border-top: 1px solid #dfe1e6;
   width: 100%;
   justify-content: center;
+}
+
+@media screen and (min-width: 920px) {
+  nav {
+    padding: 0 154px;
+  }
+
+  .upper-nav {
+    display: none;
+  }
+
+  .lower-nav img {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-nav ul li {
+    list-style: none;
+    margin-right: 32px;
+  }
+
+  .desktop-nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .desktop-nav ul li a img {
+    display: block;
+    width: 24px;
+  }
+
+  /* Hero desktop */
+  .hero {
+    flex-direction: row-reverse;
+    padding: 264px 0;
+    background-size: 500px;
+    background-position: 100% 50%;
+    height: 100vh;
+  }
+
+  .hero-section {
+    padding-right: 50vw;
+  }
+
+  .hero-section h1 {
+    padding-right: 15vw;
+  }
+
+  .hero-icon {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px 90px 36px;
+    justify-content: center;
+  }
+
+  .hero img {
+    width: 18px;
+    margin: 10px 0;
+  }
+
+  .see-project-new {
+    display: grid;
+  }
 }
