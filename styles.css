@@ -468,7 +468,52 @@ nav {
     margin: 10px 0;
   }
 
-  .see-project-new {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+  }
+
+  .other-projects {
     display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .see-project {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .see-project img {
+    margin-right: 24px;
+    width: 150vw;
+  }
+
+
+  .multi-post p{
+    margin: 24px 0;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .recent-work {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+
+  .recent-work h2 {
+    border: none;
+  }
+
+  .recent-work-line {
+    background-color: #212121;
+    width: 700px;
+    height: 1px;
+    margin-left: -50px;
   }
 }
