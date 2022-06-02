@@ -473,8 +473,6 @@ nav {
     justify-content: center;
   }
 
-
-
   .projects {
     display: flex;
     flex-direction: column;
@@ -491,8 +489,6 @@ nav {
     flex-direction: row;
     margin-bottom: 20px;
   }
-
-
 
   .multi-post p {
     margin: 24px 0;
@@ -590,8 +586,6 @@ nav {
   .contact-desktop form {
     flex: 2;
   }
-
-
 
   .contact-desktop form ul li textarea {
     height: 114px;
