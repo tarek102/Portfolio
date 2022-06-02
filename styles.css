@@ -254,9 +254,9 @@ nav {
 
 .about-me p {
   color: #f4f5f7;
-  font-family: poppins, sans-serif;
+  font-family: inter, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px;
 }
 
@@ -308,7 +308,7 @@ nav {
   font-size: 28px;
   font-weight: 700;
   color: #fff;
-  font-family: poppins, sans-serif;
+  font-family: inter, sans-serif;
 }
 
 .languages {
@@ -431,7 +431,7 @@ nav {
 
   .desktop-nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .desktop-nav ul li a img {
@@ -490,8 +490,7 @@ nav {
     width: 150vw;
   }
 
-
-  .multi-post p{
+  .multi-post p {
     margin: 24px 0;
   }
 
@@ -515,5 +514,88 @@ nav {
     width: 700px;
     height: 1px;
     margin-left: -50px;
+  }
+
+  .desktop-project {
+    background-image: url(./images/ImgPlaceholder3.png);
+    background-size: cover;
+  }
+
+  .project-new {
+    height: 500px;
+  }
+
+  .project-new h3 {
+    margin-top: 10vh;
+  }
+
+  .desktop-project h3,
+  .desktop-project p,
+  .desktop-skills {
+    display: none;
+  }
+
+  .about {
+    padding: 130px 124px;
+  }
+
+  .about-me p {
+    padding-right: 40vw;
+    margin: 25px 0;
+  }
+
+  .about {
+    background-image: url(./images/illustration-about\ me@2x.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 100% 10%;
+  }
+
+  .about-skills ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-skills ul li ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    padding: 100px 124px;
+    padding-bottom: 14px;
+  }
+
+  .contact-desktop {
+    display: flex;
+  }
+
+  .contact-desktop div {
+    flex: 1;
+  }
+
+  .contact-desktop div p {
+    font-family: Inter, sans-serif;
+    color: #262626;
+    text-align: left;
+    line-height: 52px;
+  }
+
+  .contact-desktop form {
+    flex: 2;
+  }
+
+  .contact-desktop form ul {
+    margin: 0;
+    margin-left: 40px;
+  }
+
+  .contact-desktop form ul li textarea {
+    height: 114px;
+  }
+
+  .contact-btn {
+    align-self: flex-start;
+    margin-bottom: 166px;
   }
 }
