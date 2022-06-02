@@ -434,6 +434,16 @@ nav {
     color: #fff;
   }
 
+  .see-project img {
+    margin-right: 24px;
+    width: 150vw;
+  }
+
+  .hero img {
+    width: 18px;
+    margin: 10px 0;
+  }
+
   .desktop-nav ul li a img {
     display: block;
     width: 24px;
@@ -463,10 +473,7 @@ nav {
     justify-content: center;
   }
 
-  .hero img {
-    width: 18px;
-    margin: 10px 0;
-  }
+
 
   .projects {
     display: flex;
@@ -485,10 +492,7 @@ nav {
     margin-bottom: 20px;
   }
 
-  .see-project img {
-    margin-right: 24px;
-    width: 150vw;
-  }
+
 
   .multi-post p {
     margin: 24px 0;
@@ -537,6 +541,10 @@ nav {
 
   .about {
     padding: 130px 124px;
+    background-image: url(./images/illustration-about\ me@2x.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 100% 10%;
   }
 
   .about-me p {
@@ -544,16 +552,14 @@ nav {
     margin: 25px 0;
   }
 
-  .about {
-    background-image: url(./images/illustration-about\ me@2x.png);
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: 100% 10%;
-  }
-
   .about-skills ul {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .contact-desktop form ul {
+    margin: 0;
+    margin-left: 40px;
   }
 
   .about-skills ul li ul {
@@ -585,10 +591,7 @@ nav {
     flex: 2;
   }
 
-  .contact-desktop form ul {
-    margin: 0;
-    margin-left: 40px;
-  }
+
 
   .contact-desktop form ul li textarea {
     height: 114px;
