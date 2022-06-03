@@ -222,6 +222,11 @@ nav {
 
 .see-project-new {
   padding: 0 20px;
+  transition: 1s;
+}
+
+.see-project-new:hover {
+  transform: scale(1.1);
 }
 
 .see-project-new button {
@@ -407,6 +412,24 @@ nav {
     padding: 0 154px;
   }
 
+  .project-new h3 {
+    margin-top: 10vh;
+  }
+
+  .desktop-project h3,
+  .desktop-project p,
+  .desktop-skills {
+    display: none;
+  }
+
+  .lower-nav h3 {
+    transition: 1s;
+  }
+
+  .lower-nav h3:hover {
+    transform: rotate(360deg);
+  }
+
   .upper-nav {
     display: none;
   }
@@ -436,7 +459,7 @@ nav {
 
   .see-project img {
     margin-right: 24px;
-    width: 150vw;
+    transition: 2s;
   }
 
   .hero img {
@@ -447,6 +470,10 @@ nav {
   .desktop-nav ul li a img {
     display: block;
     width: 24px;
+  }
+
+  .see-project img:hover {
+    transform: scale(1.2);
   }
 
   /* Hero desktop */
@@ -496,6 +523,11 @@ nav {
 
   .btn {
     margin-top: 20px;
+    transition: 1s;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
   }
 
   .recent-work {
@@ -523,16 +555,6 @@ nav {
 
   .project-new {
     height: 500px;
-  }
-
-  .project-new h3 {
-    margin-top: 10vh;
-  }
-
-  .desktop-project h3,
-  .desktop-project p,
-  .desktop-skills {
-    display: none;
   }
 
   .about {
