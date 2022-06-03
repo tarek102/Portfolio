@@ -411,9 +411,21 @@ nav {
   nav {
     padding: 0 154px;
   }
+
+  .project-new h3 {
+    margin-top: 10vh;
+  }
+
+  .desktop-project h3,
+  .desktop-project p,
+  .desktop-skills {
+    display: none;
+  }
+
   .lower-nav h3 {
     transition: 1s;
   }
+
   .lower-nav h3:hover {
     transform: rotate(360deg);
   }
@@ -450,10 +462,6 @@ nav {
     transition: 2s;
   }
 
-  .see-project img:hover {
-    transform: scale(1.2);
-  }
-
   .hero img {
     width: 18px;
     margin: 10px 0;
@@ -462,6 +470,10 @@ nav {
   .desktop-nav ul li a img {
     display: block;
     width: 24px;
+  }
+
+  .see-project img:hover {
+    transform: scale(1.2);
   }
 
   /* Hero desktop */
@@ -543,16 +555,6 @@ nav {
 
   .project-new {
     height: 500px;
-  }
-
-  .project-new h3 {
-    margin-top: 10vh;
-  }
-
-  .desktop-project h3,
-  .desktop-project p,
-  .desktop-skills {
-    display: none;
   }
 
   .about {
