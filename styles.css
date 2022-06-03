@@ -15,6 +15,10 @@ nav {
   padding: 0 20px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .upper-nav,
 .lower-nav {
   display: flex;
@@ -60,7 +64,7 @@ nav {
 }
 
 .hero h2 {
-  font-family: roboto, sans-serif;
+  font-family: inter, sans-serif;
   font-size: 24px;
   color: #fff5e1;
   margin: 10px 0;
@@ -70,7 +74,9 @@ nav {
   font-weight: 400;
   color: #fff;
   margin-bottom: 10px;
-  font-family: poppins, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: inter, sans-serif;
 }
 
 /* My Work section */
@@ -248,9 +254,9 @@ nav {
 
 .about-me p {
   color: #f4f5f7;
-  font-family: poppins, sans-serif;
+  font-family: inter, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px;
 }
 
@@ -302,7 +308,7 @@ nav {
   font-size: 28px;
   font-weight: 700;
   color: #fff;
-  font-family: poppins, sans-serif;
+  font-family: inter, sans-serif;
 }
 
 .languages {
@@ -394,4 +400,199 @@ nav {
   border-top: 1px solid #dfe1e6;
   width: 100%;
   justify-content: center;
+}
+
+@media screen and (min-width: 920px) {
+  nav {
+    padding: 0 154px;
+  }
+
+  .upper-nav {
+    display: none;
+  }
+
+  .lower-nav img {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-nav ul li {
+    list-style: none;
+    margin-right: 32px;
+  }
+
+  .desktop-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .see-project img {
+    margin-right: 24px;
+    width: 150vw;
+  }
+
+  .hero img {
+    width: 18px;
+    margin: 10px 0;
+  }
+
+  .desktop-nav ul li a img {
+    display: block;
+    width: 24px;
+  }
+
+  /* Hero desktop */
+  .hero {
+    flex-direction: row-reverse;
+    padding: 264px 0;
+    background-size: 500px;
+    background-position: 100% 50%;
+    height: 100vh;
+  }
+
+  .hero-section {
+    padding-right: 50vw;
+  }
+
+  .hero-section h1 {
+    padding-right: 15vw;
+  }
+
+  .hero-icon {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px 90px 36px;
+    justify-content: center;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 50px 100px;
+  }
+
+  .other-projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .see-project {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .multi-post p {
+    margin: 24px 0;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .recent-work {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+
+  .recent-work h2 {
+    border: none;
+  }
+
+  .recent-work-line {
+    background-color: #212121;
+    width: 700px;
+    height: 1px;
+    margin-left: -50px;
+  }
+
+  .desktop-project {
+    background-image: url(./images/ImgPlaceholder3.png);
+    background-size: cover;
+  }
+
+  .project-new {
+    height: 500px;
+  }
+
+  .project-new h3 {
+    margin-top: 10vh;
+  }
+
+  .desktop-project h3,
+  .desktop-project p,
+  .desktop-skills {
+    display: none;
+  }
+
+  .about {
+    padding: 130px 124px;
+    background-image: url(./images/illustration-about\ me@2x.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 100% 10%;
+  }
+
+  .about-me p {
+    padding-right: 40vw;
+    margin: 25px 0;
+  }
+
+  .about-skills ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-desktop form ul {
+    margin: 0;
+    margin-left: 40px;
+  }
+
+  .about-skills ul li ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    padding: 100px 124px;
+    padding-bottom: 14px;
+  }
+
+  .contact-desktop {
+    display: flex;
+  }
+
+  .contact-desktop div {
+    flex: 1;
+  }
+
+  .contact-desktop div p {
+    font-family: Inter, sans-serif;
+    color: #262626;
+    text-align: left;
+    line-height: 52px;
+  }
+
+  .contact-desktop form {
+    flex: 2;
+  }
+
+  .contact-desktop form ul li textarea {
+    height: 114px;
+  }
+
+  .contact-btn {
+    align-self: flex-start;
+    margin-bottom: 166px;
+  }
 }
