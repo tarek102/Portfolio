@@ -411,6 +411,12 @@ nav {
   nav {
     padding: 0 154px;
   }
+  .lower-nav h3 {
+    transition: 1s;
+  }
+  .lower-nav h3:hover {
+    transform: rotate(360deg);
+  }
 
   .upper-nav {
     display: none;
