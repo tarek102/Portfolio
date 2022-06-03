@@ -474,8 +474,8 @@ nav {
   }
 
   .projects {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto;
     padding: 50px 100px;
   }
 
