@@ -42,4 +42,4 @@ This project is [MIT](./MIT.md) licensed.
 
 ## Live Demo
 
-[Live Demo]: (https://tarek102.github.io/Portfolio/)
+[Live Demo Link](https://tarek102.github.io/Portfolio/)
