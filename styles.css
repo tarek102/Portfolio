@@ -41,6 +41,7 @@ nav {
 }
 
 /* Hero */
+
 .hero {
   background-color: #1c1a19;
   background-image: url(./images/Group.png);
@@ -73,9 +74,11 @@ nav {
 .hero p {
   font-weight: 400;
   color: #fff;
+  width: 80%;
   margin-bottom: 10px;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 30px;
+  text-align: left;
   font-family: inter, sans-serif;
 }
 
