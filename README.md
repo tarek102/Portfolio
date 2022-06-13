@@ -20,6 +20,10 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@tarek102](https://github.com/tarek102)
 
+  **Yunus**
+
+- GitHub: [@IamYunusAli](https://github.com/IamYunusAli)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
