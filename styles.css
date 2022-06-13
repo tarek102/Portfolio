@@ -41,10 +41,9 @@ nav {
 .pop-up li a {
   text-decoration: none;
   font-family: Inter, sans-serif;
-  color: #fff;
   font-weight: 700;
   font-size: 32px;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 .active-pop-up {
