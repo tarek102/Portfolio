@@ -118,8 +118,9 @@ active-pop-up {
   font-weight: 400;
   color: #fff;
   margin-bottom: 10px;
-  font-size: 1rem;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
   font-family: inter, sans-serif;
 }
 
