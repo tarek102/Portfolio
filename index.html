@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <title>Tarek's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,7 +20,13 @@
     </div>
     <div class="lower-nav">
       <h3>Tarek Yosry</h3>
-      <img src="./images/Union.png" alt="hamburger menu">
+      <img class="hamburger-menu" src="./images/Union.png" alt="hamburger menu">
+      <ul class="pop-up">
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <i class="bi bi-x-lg close-icon"></i>
       <div class="desktop-nav">
         <ul>
           <li><a href="#">Portfolio</a></li>
@@ -51,7 +58,7 @@
       <img src="./images/Icon-Medium.png" alt="Medium icon">
     </div>
   </section>
-  <section class="work">
+  <section class="work" id="go-portfolio">
     <div class="recent-work">
       <h2>My Recent Work</h2>
       <span class="recent-work-line"></span>
@@ -163,7 +170,7 @@
       
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="go-about">
     <div class="about-me">
       <h2>About me</h2>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -211,7 +218,7 @@
       </ul>
     </div>
   </section>
-  <section class="contact">
+  <section class="contact" id="go-contact">
     <div class="contact-desktop">
       <div>
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -234,5 +241,7 @@
       <li><img src="./images/icons/m.png" alt="medium"></li>
     </ul>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

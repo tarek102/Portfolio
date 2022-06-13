@@ -12,7 +12,6 @@ nav {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 0 20px;
 }
 
 .desktop-nav {
@@ -23,13 +22,57 @@ nav {
 .lower-nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px 20px;
+  position: relative;
 }
 
 .upper-right-nav img,
 .lower-nav img {
   width: 17px;
   margin-right: 5px;
+  height: 100%;
+  align-self: center;
+}
+
+.pop-up {
+  display: none;
+}
+
+.pop-up li a {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff5e1;
+}
+
+.active-pop-up {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #3c3a39;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.pop-up li {
+  list-style: none;
+  padding: 15px;
+  border-bottom: #6f6c6b 1px solid;
+}
+
+.close-icon {
+  display: none;
+}
+
+.close-active {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
 }
 
 .upper-nav h5 {
@@ -58,7 +101,7 @@ nav {
 
 .hero h1 {
   color: #ff6b00;
-  font-size: 56px;
+  font-size: 1.9rem;
   font-family: Crete Round, sans-serif;
   font-family: 400;
   margin-top: -100px;
@@ -66,7 +109,7 @@ nav {
 
 .hero h2 {
   font-family: inter, sans-serif;
-  font-size: 24px;
+  font-size: 1rem;
   color: #fff5e1;
   margin: 10px 0;
 }
