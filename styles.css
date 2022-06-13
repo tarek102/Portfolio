@@ -12,7 +12,6 @@ nav {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 0 20px;
 }
 
 .desktop-nav {
@@ -23,13 +22,40 @@ nav {
 .lower-nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px 20px;
+  position: relative;
 }
 
 .upper-right-nav img,
 .lower-nav img {
   width: 17px;
   margin-right: 5px;
+  height: 100%;
+  align-self: center;
+}
+
+.pop-up {
+  display: none;
+}
+
+.pop-up li a {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.close-icon {
+  display: none;
+}
+
+.close-active {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 24px;
 }
 
 .upper-nav h5 {
@@ -57,7 +83,7 @@ nav {
 
 .hero h1 {
   color: #ff6b00;
-  font-size: 56px;
+  font-size: 1.9rem;
   font-family: Crete Round, sans-serif;
   font-family: 400;
   margin-top: -100px;
@@ -65,7 +91,7 @@ nav {
 
 .hero h2 {
   font-family: inter, sans-serif;
-  font-size: 24px;
+  font-size: 1rem;
   color: #fff5e1;
   margin: 10px 0;
 }
@@ -74,7 +100,7 @@ nav {
   font-weight: 400;
   color: #fff;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 32px;
   font-family: inter, sans-serif;
 }
