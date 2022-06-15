@@ -23,6 +23,8 @@ To get a local copy up and running follow these simple example steps.
   **Yunus**
 
 - GitHub: [@IamYunusAli](https://github.com/IamYunusAli)
+- Twitter: [@IamYunusAli](https://twitter.com/iamyunusali)
+- LinkedIn: [Yunus ALi](https://linkedin.com/in/iamyunusali)
 
 ## 🤝 Contributing
 
