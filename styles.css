@@ -446,6 +446,87 @@ nav {
   justify-content: center;
 }
 
+.popup-main-div {
+  background-color: rgba(247, 247, 247, 0.075);
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.other-projects {
+  position: relative;
+}
+
+.popup-card {
+  background-color: #ffffff;
+  margin: 20px 100px;
+  padding: 24px;
+}
+
+.popup-upper {
+  margin-top: 4px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.popup-upper h3 {
+  color: #172B4D;
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.popup-card .popup-upper ul {
+  display: flex;
+}
+
+.popup-card .popup-upper ul li {
+  list-style: none;
+  margin-right: 15px;
+  padding: 10px 12px;
+  border: #979493 1px solid;
+  color: #3c3a39;
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.popup-lower {
+  display: flex;
+}
+
+.popup-lower-left {
+  width: 600px;
+}
+
+.popup-lower-left img {
+  width: 100%;
+}
+
+
+.popup-lower-btn {
+  background-color: #f55800;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px;
+  border: none;
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #67798E;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 920px) {
   nav {
     padding: 0 154px;
