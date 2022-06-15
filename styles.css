@@ -461,7 +461,7 @@ nav {
 }
 
 .popup-card {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 20px 100px;
   padding: 24px;
 }
@@ -473,7 +473,7 @@ nav {
 }
 
 .popup-upper h3 {
-  color: #172B4D;
+  color: #172b4d;
   font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-weight: 400;
@@ -536,7 +536,7 @@ nav {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #67798E;
+  color: #67798e;
   font-size: 20px;
   cursor: pointer;
 }
