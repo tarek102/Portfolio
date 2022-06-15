@@ -9,6 +9,11 @@ let contactBtn = document.querySelector('li:nth-child(3)');
 let mainProjectDiv = document.querySelector('.other-projects');
 let projects = [
   {
+    title: "Multi-Post Stories",
+    paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    skills: ["css", "html", "bootstrap", "Ruby"]
+  },
+  {
     title: "Profesional Art Printing Data",
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ["html", "bootstrap", "Ruby"],
