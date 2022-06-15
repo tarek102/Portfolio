@@ -507,6 +507,20 @@ nav {
   width: 100%;
 }
 
+.popup-lower-right {
+  max-width: 424px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popup-lower-right p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #344563;
+}
 
 .popup-lower-btn {
   background-color: #f55800;
