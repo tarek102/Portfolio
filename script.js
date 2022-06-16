@@ -249,18 +249,14 @@ projectsBtn.forEach((btn, ind) => {
 });
 
 // form validation
-
-let form = document.getElementById('signup');
-let emailValue = document.getElementById('form-email');
-let errormessage = document.querySelector('.error');
-
+const form = document.getElementById('signup');
+const emailValue = document.getElementById('form-email');
+const errormessage = document.querySelector('.error');
 
 // submit event
-
 form.addEventListener('submit', (event) => {
-
-  let errorMsg = ''
-  email = emailValue.value.toLowerCase();
+  let errorMsg = '';
+  const email = emailValue.value.toLowerCase();
   if (email !== emailValue.value) {
     errorMsg = 'Your form cannot be submitted, please turn it to lowercase and resubmit';
   }
