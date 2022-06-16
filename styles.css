@@ -541,6 +541,12 @@ nav {
   cursor: pointer;
 }
 
+.error {
+  font-size: 16px !important;
+  padding: 15px 0;
+  font-weight: 400 !important;
+}
+
 @media screen and (min-width: 920px) {
   nav {
     padding: 0 154px;
