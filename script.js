@@ -109,7 +109,7 @@ firstProjectDiv.innerHTML = `
               <li><span>${firstProject.skills[1]}</span></li>
               <li><span>${firstProject.skills[2]}</span></li>
               <li><span>${firstProject.skills[3]}</span></li>
-            </ul>          
+            </ul>
           </div>
           <button class="btn first-btn">${firstProject.button}</button>
         </div>`;
@@ -127,7 +127,7 @@ projects.forEach((project) => {
           <li><span>${project.skills[0]}</span></li>
           <li><span>${project.skills[1]}</span></li>
           <li><span>${project.skills[2]}</span></li>
-        </ul> 
+        </ul>
       </div>
     </div>
     <button class="projects-btn">${project.button}</button>
@@ -159,12 +159,12 @@ function popup(e) {
 
       <div class="popup-lower-right">
         <p>
-          Lorem Ipsum is simply dummy text of the 
-          printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy 
-          text ever since the 1500s, when an unknown printer took a 
-          galley of type and scrambled it 1960s with the releaLorem 
-          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s 
+          Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it 1960s with the releaLorem
+          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
           with the releax map lapora verita.
         </p>
         <div>
@@ -210,12 +210,12 @@ function firstPopup() {
 
       <div class="popup-lower-right">
         <p>
-          Lorem Ipsum is simply dummy text of the 
-          printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy 
-          text ever since the 1500s, when an unknown printer took a 
-          galley of type and scrambled it 1960s with the releaLorem 
-          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s 
+          Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it 1960s with the releaLorem
+          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
           with the releax map lapora verita.
         </p>
         <div>
@@ -264,5 +264,8 @@ form.addEventListener('submit', (event) => {
   if (email !== emailValue.value) {
     errorMsg = 'Your form cannot be submitted, please turn it to lowercase and resubmit';
   }
-  
+  if (errorMsg.length > 0) {
+    event.preventDefault();
+    errormessage.innerHTML = errorMsg;
+  }
 });
