@@ -75,17 +75,17 @@ function goToPortfolio(e) {
 }
 
 function goToContact(e) {
-  window.location.href = "#go-contact";
+  window.location.href = '#go-contact';
   e.preventDefault();
-  popUp.classList.remove("active-pop-up");
-  closeIcon.classList.remove("close-active");
+  popUp.classList.remove('active-pop-up');
+  closeIcon.classList.remove('close-active');
 }
 
 function goToAbout(e) {
-  window.location.href = "#go-about";
+  window.location.href = '#go-about';
   e.preventDefault();
-  popUp.classList.remove("active-pop-up");
-  closeIcon.classList.remove("close-active");
+  popUp.classList.remove('active-pop-up');
+  closeIcon.classList.remove('close-active');
 }
 
 // Events
