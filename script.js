@@ -257,10 +257,11 @@ const errormessage = document.querySelector('.error');
 form.addEventListener('submit', (event) => {
   let errorMsg = '';
   const email = emailValue.value.toLowerCase();
-  if (email == emailValue.value) {
+  if (email !== emailValue.value) {
     errorMsg = 'Your form cannot be submitted, please turn it to lowercase and resubmit';
   }
   if (errorMsg.length > 0) {
+    event.preventDefault();
     errormessage.innerHTML = errorMsg;
   }
 });
