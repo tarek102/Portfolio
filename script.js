@@ -90,11 +90,7 @@ function goToAbout(e) {
 
 // Events
 
-hamburger.addEventListener('click', openMenu);
-closeIcon.addEventListener('click', closeMenu);
-portfolioBtn.addEventListener('click', goToPortfolio);
-aboutBtn.addEventListener('click', goToAbout);
-contactBtn.addEventListener('click', goToContact);
+
 
 // dynamically create projects
 
