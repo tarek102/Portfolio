@@ -525,6 +525,7 @@ nav {
   font-size: 0.8rem;
   font-weight: 400;
   color: #344563;
+  margin-top: 10px;
 }
 
 .popup-lower-btn-div {
@@ -538,7 +539,7 @@ nav {
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 700;
-  padding: 10px;
+  padding: 10px 20px;
   border: none;
   margin-top: 10px;
 }
@@ -732,6 +733,7 @@ nav {
     font-size: 1rem;
     line-height: 30px;
     padding-right: 15px;
+    margin-top: 0;
   }
 
   .popup-lower-btn-div {
