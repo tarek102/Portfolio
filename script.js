@@ -14,36 +14,54 @@ const projects = [
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
   {
     title: 'Data Dashboard Healthcare',
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
   {
     title: 'Website Protfolio',
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
   {
     title: 'Data Dashboard Healthcare',
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
   {
     title: 'Website Protfolio',
     paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     skills: ['html', 'bootstrap', 'Ruby'],
     button: 'See Projects',
+    image: './images/Snapshoot-Portfolio.png',
+    liveLink: 'https://tarek102.github.io/Portfolio/',
+    sourceCode: 'https://github.com/tarek102/Portfolio',
   },
 
 ];
@@ -53,6 +71,9 @@ const firstProject = {
   paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   skills: ['html', 'css', 'bootstrap', 'Ruby'],
   button: 'See Project',
+  featureImageFirst: './images/ImgPlaceholder.png',
+  liveLinkFirst: 'https://tarek102.github.io/Portfolio/',
+  sourceCodeFirst: 'https://github.com/tarek102/Portfolio',
 };
 
 // functions
@@ -152,7 +173,7 @@ function popup(e) {
     </div>
     <div class="popup-lower">
       <div class="popup-lower-left">
-        <img src="./images/Snapshoot-Portfolio.png">
+        <img src="${projects[e].image}">
       </div>
       <div class="popup-lower-right">
         <p>
@@ -164,9 +185,9 @@ function popup(e) {
           Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
           with the releax map lapora verita.
         </p>
-        <div>
-          <button class="popup-lower-btn">See Live</button>
-          <button class="popup-lower-btn">See Source</button>
+        <div class="popup-lower-btn-div">
+          <button class="popup-lower-btn" href="${projects[e].liveLink}">See Live</button>
+          <button class="popup-lower-btn" href="${projects[e].sourceCode}">See Source</button>
         </div>
       </div>
     </div>
@@ -201,7 +222,7 @@ function firstPopup() {
     </div>
     <div class="popup-lower">
       <div class="popup-lower-left">
-        <img src="./images/Snapshoot-Portfolio.png">
+        <img src="${firstProject.featureImageFirst}">
       </div>
 
       <div class="popup-lower-right">
@@ -214,9 +235,9 @@ function firstPopup() {
           Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
           with the releax map lapora verita.
         </p>
-        <div>
-          <button class="popup-lower-btn">See Live</button>
-          <button class="popup-lower-btn">See Source</button>
+        <div class="popup-lower-btn-div">
+          <button class="popup-lower-btn" href="${firstProject.liveLinkFirst}">See Live</button>
+          <button class="popup-lower-btn" href="${firstProject.sourceCodeFirst}">See Source</button>
         </div>
 
       </div>
