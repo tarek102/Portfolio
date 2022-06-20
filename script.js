@@ -74,7 +74,19 @@ function goToPortfolio(e) {
   closeIcon.classList.remove('close-active');
 }
 
+function goToContact(e) {
+  window.location.href = "#go-contact";
+  e.preventDefault();
+  popUp.classList.remove("active-pop-up");
+  closeIcon.classList.remove("close-active");
+}
 
+function goToAbout(e) {
+  window.location.href = "#go-about";
+  e.preventDefault();
+  popUp.classList.remove("active-pop-up");
+  closeIcon.classList.remove("close-active");
+}
 
 // Events
 
