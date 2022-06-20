@@ -96,7 +96,6 @@ portfolioBtn.addEventListener('click', goToPortfolio);
 aboutBtn.addEventListener('click', goToAbout);
 contactBtn.addEventListener('click', goToContact);
 
-
 // dynamically create projects
 
 firstProjectDiv.innerHTML = `
