@@ -132,10 +132,7 @@ projects.forEach((project) => {
   </div>`;
 });
 
-
-
 // On click create popup
-
 
 function popup(e) {
   const popUpMainDiv = document.createElement('div');
