@@ -92,43 +92,7 @@ function goToAbout(e) {
 
 
 
-// dynamically create projects
 
-firstProjectDiv.innerHTML = `
-        <img src="./images/ImgPlaceholder.png" alt="image 1">
-        <div class="multi-post">
-          <h3>${firstProject.title}</h3>
-          <p>${firstProject.paragraph}</p>
-          <div class="skills">
-            <ul>
-              <li><span>${firstProject.skills[0]}</span></li>
-              <li><span>${firstProject.skills[1]}</span></li>
-              <li><span>${firstProject.skills[2]}</span></li>
-              <li><span>${firstProject.skills[3]}</span></li>
-            </ul>
-          </div>
-          <button class="btn first-btn">${firstProject.button}</button>
-        </div>`;
-
-projects.forEach((project) => {
-  const divElement = document.createElement('div');
-  mainProjectDiv.appendChild(divElement);
-  divElement.innerHTML = `
-  <div class="see-project-new">
-    <div class="project-new">
-      <h3>${project.title}</h3>
-      <p>${project.paragraph}</p>
-      <div class="skills-new">
-        <ul>
-          <li><span>${project.skills[0]}</span></li>
-          <li><span>${project.skills[1]}</span></li>
-          <li><span>${project.skills[2]}</span></li>
-        </ul>
-      </div>
-    </div>
-    <button class="projects-btn">${project.button}</button>
-  </div>`;
-});
 
 // On click create popup
 
