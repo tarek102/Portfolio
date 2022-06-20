@@ -137,6 +137,52 @@ projects.forEach((project) => {
 // On click create popup
 
 
+function popup(e) {
+  const popUpMainDiv = document.createElement('div');
+  const popupCard = document.createElement('div');
+  popupCard.className = 'popup-card';
+  popUpMainDiv.className = 'popup-main-div';
+
+  popupCard.innerHTML = `
+    <div class="popup-upper">
+      <h3>${projects[e].title}</h3>
+      <ul>
+        <li><span>${projects[e].skills[0]}</span></li>
+        <li><span>${projects[e].skills[1]}</span></li>
+        <li><span>${projects[e].skills[2]}</span></li>
+      </ul>
+      <i class="bi bi-x-lg popup-close-btn"></i>
+    </div>
+    <div class="popup-lower">
+      <div class="popup-lower-left">
+        <img src="./images/Snapshoot-Portfolio.png">
+      </div>
+      <div class="popup-lower-right">
+        <p>
+          Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it 1960s with the releaLorem
+          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
+          with the releax map lapora verita.
+        </p>
+        <div>
+          <button class="popup-lower-btn">See Live</button>
+          <button class="popup-lower-btn">See Source</button>
+        </div>
+      </div>
+    </div>
+    `;
+
+  mainProjectDiv.appendChild(popUpMainDiv);
+  popUpMainDiv.appendChild(popupCard);
+
+  const popupCloseBtn = document.querySelector('.popup-close-btn');
+  popupCloseBtn.addEventListener('click', () => {
+    mainProjectDiv.removeChild(popUpMainDiv);
+  });
+}
 
 // first project popup
 
