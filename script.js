@@ -74,10 +74,27 @@ function goToPortfolio(e) {
   closeIcon.classList.remove('close-active');
 }
 
+function goToContact(e) {
+  window.location.href = '#go-contact';
+  e.preventDefault();
+  popUp.classList.remove('active-pop-up');
+  closeIcon.classList.remove('close-active');
+}
 
+function goToAbout(e) {
+  window.location.href = '#go-about';
+  e.preventDefault();
+  popUp.classList.remove('active-pop-up');
+  closeIcon.classList.remove('close-active');
+}
 
 // Events
 
+hamburger.addEventListener('click', openMenu);
+closeIcon.addEventListener('click', closeMenu);
+portfolioBtn.addEventListener('click', goToPortfolio);
+aboutBtn.addEventListener('click', goToAbout);
+contactBtn.addEventListener('click', goToContact);
 
 
 // dynamically create projects
