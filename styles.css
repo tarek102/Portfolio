@@ -704,6 +704,14 @@ nav {
     background-size: cover;
   }
 
+  .popup-main-div {
+    display: flex;
+  }
+
+  .popup-card {
+    margin: auto auto;
+  }
+
   .popup-lower-left {
     width: 600px;
   }
@@ -714,6 +722,24 @@ nav {
 
   .project-new {
     height: 500px;
+  }
+
+  .popup-lower-right {
+    margin-left: 25px;
+  }
+
+  .popup-lower-right p {
+    font-size: 1rem;
+    line-height: 30px;
+    padding-right: 15px;
+  }
+
+  .popup-lower-btn-div {
+    justify-content: flex-start;
+  }
+
+  .popup-lower-btn {
+    margin-right: 10px;
   }
 
   .about {
