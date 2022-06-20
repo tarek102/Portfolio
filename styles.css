@@ -205,8 +205,8 @@ nav {
   color: #fff;
   font-family: inter, sans-serif;
   font-weight: 500;
-  font-size: 0.9rem;
-  margin-right: 10px;
+  font-size: 0.7rem;
+  margin-right: 5px;
 }
 
 .skills ul li span {
@@ -215,8 +215,8 @@ nav {
   color: #091e42;
   font-family: inter, sans-serif;
   font-weight: 500;
-  font-size: 0.9rem;
-  margin-right: 10px;
+  font-size: 0.7rem;
+  margin-right: 5px;
   margin-bottom: 10px;
 }
 
@@ -469,22 +469,24 @@ nav {
 
 .popup-card {
   background-color: #fff;
-  margin: 20px 100px;
+  margin: 30px auto;
   padding: 24px;
+  width: 80%;
 }
 
 .popup-upper {
   margin-top: 4px;
-  margin-bottom: 50px;
+  margin-bottom: 17px;
   position: relative;
 }
 
 .popup-upper h3 {
   color: #172b4d;
   font-family: Crete Round, sans-serif;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .popup-card .popup-upper ul {
@@ -494,7 +496,7 @@ nav {
 .popup-card .popup-upper ul li {
   list-style: none;
   margin-right: 15px;
-  padding: 10px 12px;
+  padding: 6px 6px;
   border: #979493 1px solid;
   color: #3c3a39;
   font-family: poppins, sans-serif;
@@ -504,10 +506,7 @@ nav {
 
 .popup-lower {
   display: flex;
-}
-
-.popup-lower-left {
-  width: 600px;
+  flex-direction: column;
 }
 
 .popup-lower-left img {
@@ -516,7 +515,6 @@ nav {
 
 .popup-lower-right {
   max-width: 424px;
-  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -524,9 +522,15 @@ nav {
 
 .popup-lower-right p {
   font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #344563;
+  margin-top: 10px;
+}
+
+.popup-lower-btn-div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .popup-lower-btn {
@@ -535,14 +539,15 @@ nav {
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 700;
-  padding: 12px;
+  padding: 10px 20px;
   border: none;
+  margin-top: 10px;
 }
 
 .popup-close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: -20px;
+  right: 5px;
   color: #67798e;
   font-size: 20px;
   cursor: pointer;
@@ -700,8 +705,43 @@ nav {
     background-size: cover;
   }
 
+  .popup-main-div {
+    display: flex;
+  }
+
+  .popup-card {
+    margin: auto auto;
+  }
+
+  .popup-lower-left {
+    width: 600px;
+  }
+
+  .popup-lower {
+    flex-direction: row;
+  }
+
   .project-new {
     height: 500px;
+  }
+
+  .popup-lower-right {
+    margin-left: 25px;
+  }
+
+  .popup-lower-right p {
+    font-size: 1rem;
+    line-height: 30px;
+    padding-right: 15px;
+    margin-top: 0;
+  }
+
+  .popup-lower-btn-div {
+    justify-content: flex-start;
+  }
+
+  .popup-lower-btn {
+    margin-right: 10px;
   }
 
   .about {
