@@ -271,12 +271,11 @@ const emailValue = document.getElementById('form-email');
 const errormessage = document.querySelector('.error');
 
 // submit event
-form.addEventListener("submit", (event) => {
-  let errorMsg = "";
+form.addEventListener('submit', (event) => {
+  let errorMsg = '';
   const email = emailValue.value.toLowerCase();
   if (email !== emailValue.value) {
-    errorMsg =
-      "Your form cannot be submitted, please turn it to lowercase and resubmit";
+    errorMsg = 'Your form cannot be submitted, please turn it to lowercase and resubmit';
   }
   if (errorMsg.length > 0) {
     event.preventDefault();
