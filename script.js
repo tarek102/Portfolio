@@ -266,7 +266,9 @@ projectsBtn.forEach((btn, ind) => {
 });
 
 // form validation
-
+const form = document.getElementById('signup');
+const emailValue = document.getElementById('form-email');
+const errormessage = document.querySelector('.error');
 
 // submit event
 form.addEventListener('submit', (event) => {
