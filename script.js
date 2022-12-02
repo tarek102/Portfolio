@@ -67,9 +67,9 @@ const projects = [
 ];
 
 const firstProject = {
-  title: 'Multi-Post Stories',
-  paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  skills: ['html', 'css', 'bootstrap', 'Ruby'],
+  title: 'Pet Store',
+  paragraph: "Pet store is an application where you can create an account and add a category with some details like the name of the category and an icon for its image, for each category you can add an item to it with the name of the item and its price. The app will calculate automatically the sum of the items for each category.",
+  skills: ['html', 'css', 'bootstrap', 'Ruby on Rails'],
   button: 'See Project',
   featureImageFirst: './images/petstore.png',
   liveLinkFirst: 'https://rails-pet-shop.onrender.com/',
@@ -227,13 +227,7 @@ function firstPopup() {
 
       <div class="popup-lower-right">
         <p>
-          Lorem Ipsum is simply dummy text of the
-          printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a
-          galley of type and scrambled it 1960s with the releaLorem
-          Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
-          with the releax map lapora verita.
+        Pet store is an application where you can create an account and add a category with some details like the name of the category and an icon for its image, for each category you can add an item to it with the name of the item and its price. The app will calculate automatically the sum of the items for each category.
         </p>
         <div class="popup-lower-btn-div">
           <a style="z-index: 99999; cursor: pointer;" class="popup-lower-btn" href="${firstProject.liveLinkFirst}">See Live</a>
