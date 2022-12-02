@@ -71,9 +71,9 @@ const firstProject = {
   paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   skills: ['html', 'css', 'bootstrap', 'Ruby'],
   button: 'See Project',
-  featureImageFirst: './images/ImgPlaceholder.png',
-  liveLinkFirst: 'https://tarek102.github.io/Portfolio/',
-  sourceCodeFirst: 'https://github.com/tarek102/Portfolio',
+  featureImageFirst: './images/petstore.png',
+  liveLinkFirst: 'https://rails-pet-shop.onrender.com/',
+  sourceCodeFirst: 'https://github.com/tarek102/rails_pet_shop',
 };
 
 // functions
@@ -118,7 +118,7 @@ contactBtn.addEventListener('click', goToContact);
 // dynamically create projects
 
 firstProjectDiv.innerHTML = `
-        <img src="./images/ImgPlaceholder.png" alt="image 1">
+        <img src="./images/cats.png" alt="image 1" style='width: 350px'>
         <div class="multi-post">
           <h3>${firstProject.title}</h3>
           <p>${firstProject.paragraph}</p>
@@ -236,8 +236,8 @@ function firstPopup() {
           with the releax map lapora verita.
         </p>
         <div class="popup-lower-btn-div">
-          <button class="popup-lower-btn" href="${firstProject.liveLinkFirst}">See Live</button>
-          <button class="popup-lower-btn" href="${firstProject.sourceCodeFirst}">See Source</button>
+          <a style="z-index: 99999; cursor: pointer;" class="popup-lower-btn" href="${firstProject.liveLinkFirst}">See Live</a>
+          <a class="popup-lower-btn" href="${firstProject.sourceCodeFirst}">See Source</a>
         </div>
 
       </div>
